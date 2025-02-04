@@ -1,0 +1,14 @@
+.card-title{
+    font-family: "DM Sans", serif;
+    text-align: center;
+    font-weight: bold;
+}
+.card-text{
+    font-family: "DM Sans", serif;
+    text-align: center;
+    font-weight: bold;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+}

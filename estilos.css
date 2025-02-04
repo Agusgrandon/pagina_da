@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+/* navBar */
+.icono_instagram{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;  
+    text-align: right;
+} 
+.icono_instagram:hover{
+    color: #7e7e7e;
+}
+.titulo{
+    font-family: "Sofia Sans", serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+.navbar-nav .nav-item {
+    margin: 0 17px; 
+}
+.navbar-nav .nav-item i {
+    font-size: 1.5rem; 
+  }
+.nav-item a{
+    font-family: "DM Sans", serif;
+    font-size: 25px;
+    color: black;
+}
+/* main */
+.div_foto_y_texto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+.div_foto_y_texto_dos{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+.imagen_home{
+    width: auto;
+    height: 500px; 
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.imagen_home_dos{
+    width: auto;
+    height: 500px; 
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+.main_home{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+.main_home_dos{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+.titulo_main{
+    font-family: "DM Sans", serif;
+}
+.parrafo_main{
+    font-family: "DM Sans", serif;
+    color: #5a5a5a;
+}
+.parrafo_main_dos{
+    font-family: "DM Sans", serif;
+    color: #5a5a5a;
+}
+.div_fotos{
+    margin: 100px;
+}
+/* footer */
+.palabra_footer{
+    color: black;
+    font-family: "DM Sans", serif;
+    font-weight: bold;
+    text-align: right;
+}
