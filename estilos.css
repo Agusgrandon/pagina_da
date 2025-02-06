@@ -12,14 +12,6 @@
 .icono_instagram:hover{
     color: #7e7e7e;
 }
-.titulo{
-    font-family: "Sofia Sans", serif;
-    font-weight: 900;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 60px;
-}
 .navbar .container-fluid {
     display: flex;
     justify-content: space-between; 
@@ -37,8 +29,8 @@
     font-size: 1.5rem; 
   }
 .nav-item a{
-    font-family: "DM Sans", serif;
-    font-size: 25px;
+    font-family: "Anton", serif;
+    font-size: 22px;
     color: black;
 }
 /* main */
@@ -95,4 +87,17 @@
     font-family: "DM Sans", serif;
     font-weight: bold;
     text-align: right;
+}
+/* responsive */
+@media (min-width: 320px){
+    .titulo{
+        font-family: "Anton", serif;
+        font-size: 40px;
+    }
+}
+@media (min-width: 768px) {
+    .titulo{
+        font-family: "Anton", serif;
+        font-size: 70px;
+    }
 }
