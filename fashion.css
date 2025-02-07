@@ -46,10 +46,10 @@
         height: auto; 
     }
 }
-@media (min-width: 410px){
+@media (min-width: 405px){
     .card {
         width: 100%;
-        max-width: 400px;
+        max-width: 380px;
         margin: 20px auto;
         border-radius: 0%;
     }
