@@ -8,7 +8,26 @@
     text-align: center;
     font-weight: bold;
 }
-.card:hover{
-    background-color: black;
+.card-body a{
+    text-decoration: none;
+    color: black;
+}
+.card-body a:hover{
     color: white;
+}
+.card:hover{
+    background-color: black; 
+    color: white; 
+}
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .card-body a {
+    color: white; 
+}
+
+/* responsive */
+@media (min-width: 768px) {
+    .texto{
+        transform: translate(-8px, 200px);
+    }
 }
