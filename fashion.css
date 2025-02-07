@@ -46,6 +46,30 @@
         height: auto; 
     }
 }
+@media (min-width: 342px){
+    .card {
+        width: 100%;
+        max-width: 280px;
+        margin: 20px;
+        border-radius: 0%;
+    }
+}
+@media (min-width: 360px){
+    .card {
+        width: 100%;
+        max-width: 350px;
+        margin: 20px auto;
+        border-radius: 0%;
+    }
+}
+@media (min-width: 390px){
+    .card {
+        width: 100%;
+        max-width: 350px;
+        margin: 20px auto;
+        border-radius: 0%;
+    }
+}
 @media (min-width: 405px){
     .card {
         width: 100%;
