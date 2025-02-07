@@ -30,4 +30,10 @@
     .texto{
         transform: translate(-8px, 200px);
     }
+    .textoDos{
+        transform: translate(-8px, 200px);
+    }
+    .textoTres{
+        transform: translate(-8px, 200px);
+    }
 }
