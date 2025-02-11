@@ -94,10 +94,49 @@
         font-family: "Anton", serif;
         font-size: 40px;
     }
+    .navbar-nav .nav-item {
+        margin: 0 14px; 
+    }
+    .navbar-nav .nav-item i {
+        font-size: 1.3rem; 
+      }
+    .nav-item a{
+        font-family: "Urbanist", serif;
+        font-size: 19px;
+        color: black;
+    }
 }
 @media (min-width: 768px) {
     .titulo{
         font-family: "Anton", serif;
         font-size: 70px;
+    }
+    .navbar-nav .nav-item {
+        margin: 0 17px; 
+    }
+    .navbar-nav .nav-item i {
+        font-size: 1.5rem; 
+      }
+    .nav-item a{
+        font-family: "Urbanist", serif;
+        font-size: 22px;
+        color: black;
+    }
+}
+@media (min-width: 1024px){
+    .titulo{
+        font-family: "Anton", serif;
+        font-size: 70px;
+    }
+    .navbar-nav .nav-item {
+        margin: 0 17px; 
+    }
+    .navbar-nav .nav-item i {
+        font-size: 1.4rem; 
+      }
+    .nav-item a{
+        font-family: "Urbanist", serif;
+        font-size: 20px;
+        color: black;
     }
 }
