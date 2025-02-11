@@ -86,7 +86,6 @@
     color: black;
     font-family: "DM Sans", serif;
     font-weight: bold;
-    text-align: right;
 }
 /* responsive */
 @media (min-width: 320px){
