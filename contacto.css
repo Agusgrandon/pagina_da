@@ -1,0 +1,45 @@
+form{
+    text-align: center;
+    font-size: 25px;
+    font-family: "DM Sans", serif;
+    font-weight: bold;
+    color: black;
+    padding: 250px;
+    border: none;
+    margin: 70px;
+    background-image: url(https://cdn.myportfolio.com/bcec0e4b-ce6d-4a57-93ef-ebc0ff963613/388168fe-63b9-4c27-b23d-214bad5b0e5b_rw_1920.jpg?h=13214c6a366159f595d559783b5ac9a8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+h2{
+    font-family: "DM Sans", serif;
+}
+
+/* responsive */
+
+@media (min-width: 320px) {
+    form{
+        text-align: center;
+        font-size: 12px;
+        padding: 127px;
+        border: none;
+        margin: 27px;
+        background-image: url(https://cdn.myportfolio.com/bcec0e4b-ce6d-4a57-93ef-ebc0ff963613/d62d6359-6e7a-4d9b-8608-9cd889c48564_rw_1920.jpg?h=0f223000ee4c4afed1b0f0769e08c9b8);
+        }  
+    }
+
+@media (min-width: 768px){
+    form{
+        text-align: center;
+        font-size: 25px;
+        font-family: "DM Sans", serif;
+        font-weight: bold;
+        color: white;
+        padding: 250px;
+        border: none;
+        margin: 70px;
+        background-image: url(https://cdn.myportfolio.com/bcec0e4b-ce6d-4a57-93ef-ebc0ff963613/388168fe-63b9-4c27-b23d-214bad5b0e5b_rw_1920.jpg?h=13214c6a366159f595d559783b5ac9a8);
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+}
