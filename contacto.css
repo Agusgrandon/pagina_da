@@ -8,6 +8,16 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.foto-contacto {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .info-bloque {
+    font-family: "Urbanist", sans-serif;
+  }
 /* responsive */
 
 @media (min-width: 320px) {
