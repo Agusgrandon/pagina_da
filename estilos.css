@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box; }
 /* navBar */
+.titulo{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 .icono_instagram{
     font-size: 20px;
     text-decoration: none;
@@ -90,7 +95,6 @@
 /* responsive */
 @media (min-width: 320px){
     .titulo{
-        font-family: "Anton", serif;
         font-size: 40px;
     }
     .navbar-nav .nav-item {
@@ -107,7 +111,6 @@
 }
 @media (min-width: 768px) {
     .titulo{
-        font-family: "Anton", serif;
         font-size: 70px;
     }
     .navbar-nav .nav-item {
@@ -124,7 +127,6 @@
 }
 @media (min-width: 1024px){
     .titulo{
-        font-family: "Anton", serif;
         font-size: 70px;
     }
     .navbar-nav .nav-item {
