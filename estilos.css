@@ -11,12 +11,12 @@
 .navbar .container-fluid {
     display: flex;
     justify-content: space-between; 
-    align-items: baseline;
+    align-items: center;
 }
 .navbar-collapse {
     display: flex;
-    justify-content: space-between; 
-    width: 100%; 
+    justify-content: flex-end;
+    width: auto; 
 }
 .nav-item a{
     font-family: "Saira Condensed", sans-serif;
